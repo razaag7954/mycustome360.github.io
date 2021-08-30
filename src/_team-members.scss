@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+.team-member{
+
+    padding:120px 0 90px;
+    
+    .sec-title{
+        margin-bottom: 40px;
+    }
+    .tag-line{
+        display: block;
+        font-family: 'Gloria Hallelujah', cursive;
+        color: #e18b1d;
+        font-size: 20px;
+    }
+    .text-line{
+        margin: 0;
+        margin-top: 5px;
+        color: #18212E;
+        font-weight: 600;
+        font-size: 50px;
+        letter-spacing: -0.06em;
+        margin-bottom: 27px;
+    }
+    .team__single_item{
+        margin-bottom: 30px;
+        .team_img{
+            img{
+                width: 100%;
+                vertical-align:middle;
+                border-style: none;
+            }
+        }
+        .team-content{
+            .team-title{   
+                a{
+                    text-decoration: none;
+                    background: transparent; 
+                    color: inherit;  
+                    transition: all .4s ease;
+                }
+                color: #18212E;
+                font-size: 22px;
+                font-weight: 600;
+                margin: 0;
+                line-height: 1em;
+                margin-top: 30px;
+                a:hover{
+                    color: #e18b1d;
+                }
+            }
+
+            .team-destination{
+                margin: 0;
+                line-height: 1em;
+                color: #7B7F85;
+                font-size: 16px;
+                margin-bottom: 25px;
+                margin-top: 20px;
+            }
+            .team-social{
+                display: flex;
+                justify-content: center;
+                a{
+                    width: 59px;
+                    height: 59px;
+                    background-color: #F8F6F3;
+                    color: #7B7F85;
+                    font-size: 18px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    transition: all .4s ease;
+                    text-decoration: none;
+                    margin-left: 13px;
+                }
+                a:hover{
+                    background-color: #18212E;
+                    color: #e18b1d;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,23 @@
+@use "./config";
+@use "./custome";
+@use "./header";
+@use "./contactus";
+@use "./team-members";
+@use "./footer";
+
+
+@use "./utilities";
+*{
+    font-family: config.$font-stack;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+

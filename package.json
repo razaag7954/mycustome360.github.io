@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "360 companay's website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch src:css"
+  },
+  "keywords": [
+    "provide",
+    "virtual",
+    "assistan",
+    "provide",
+    "CRM",
+    "provide",
+    "handle",
+    "your",
+    "account"
+  ],
+  "author": "Ahmad Raza",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "sass": "^1.37.2"
+  }
+}

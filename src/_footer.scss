@@ -1,0 +1,110 @@
+
+#footer {
+    margin: 0;
+    padding: 0;
+    min-height: 610px;
+    width: 100%;
+    background-color: #18212E;
+
+    .f-p .row{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .footer-mb{
+        margin-bottom: 30px;
+    }
+    .adress {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        padding-top: 30px;
+    }
+    div a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+    }
+
+
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        color: #94A0BA;
+        li a:hover{
+            color: white;
+        }
+    }
+
+    .footer-tlt {
+        color:#f8f9fa!important
+    }
+
+    .f-ml{
+        margin-left: 20px;
+    }
+    .f-mt{
+        padding-top: 80px;
+    }
+
+    .f-links {
+        li{
+            margin-bottom: 25px;
+        }
+        li a, a:hover, a:focus, a:active {
+            text-decoration: none;
+            color: inherit;
+        }
+        li:hover{
+            color: #f8f9fa;
+            cursor: pointer;
+        }
+    }
+
+    .side-footer{
+        div >*{
+            color: #94A0BA;
+            line-height: 32px;
+        }
+        .item1 {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+        }
+        span{
+            display: block;
+            margin-top: 15px;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        div a, a:hover, a:focus, a:active {
+            text-decoration: none;
+            color: inherit;
+        }
+        div >a:hover{
+            color: #f8f9fa;
+        cursor: pointer;
+        }
+        div span>a:hover{
+            color: #f8f9fa;
+        cursor: pointer;
+        }
+        a, a:hover, a:focus, a:active{
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .bottom-footer {
+        padding: 34px 0;
+        background-color: #121A24;
+    }
+
+    .text-right{
+        text-align: right;
+        ul li{
+            margin-right: 2rem;
+            a:hover{
+                color: white;
+            }
+        }
+
+    }
+}
